@@ -1,7 +1,26 @@
 *{
     padding: 0%;
     margin: 0%;
+    
+}
+header{
+    display: flex;
+    flex-direction: row;
 }
 h2{
     color: blue;
+}
+.foto-perfil{
+    width: 290px;
+    height: 230px;
+}
+
+.acerca-section{
+    background-color: grey;
+    padding: 3%;
+    display: flex;
+
+}
+.acerca-section h2{
+
 }
