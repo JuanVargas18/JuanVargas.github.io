@@ -7,6 +7,20 @@ header{
     display: flex;
     flex-direction: row;
     align-items: center;
+    height: 30vh;
+}
+.p-header{
+    color: brown;
+    display: flex;
+    flex-direction: row;
+}
+.acerca-section{
+    height: 10vh;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    height: 60vh;
 }
 
 
@@ -15,7 +29,7 @@ h1{
     
 }
 h2{
-    color: blue;
+    padding: 0px 20px 0px 0px;
 }
 .foto-perfil{
     width: 150px;
@@ -29,14 +43,15 @@ h2{
     display: flex;
 
 }
-.acerca-section h2{
-
-}
-
 .otros-section{
     background-color: black;
     color: aliceblue;
+    padding: 30px 10px 0px 30px;
 }
 .otros-h2{
     color: aliceblue;
+}
+
+.experiencia-section{
+    padding: 0px 20px 0px 0px
 }
