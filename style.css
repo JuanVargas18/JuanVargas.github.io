@@ -6,52 +6,84 @@
 header{
     display: flex;
     flex-direction: row;
-    align-items: center;
+    
     height: 30vh;
 }
-.p-header{
-    color: brown;
-    display: flex;
-    flex-direction: row;
-}
-.acerca-section{
-    height: 10vh;
-}
+
+/*.acerca-section{
+    height: 10vh;*/
+
 main{
     display: flex;
-    flex-direction: row;
-    height: 60vh;
+    flex-direction: column;
+    height: 70vh;
 }
 
 
 h1{
     padding: 0px 0px 0px 200px;
+    order:1;
+    font-size: 5em;
+    width: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     
+}
+header p{
+    display: flex;
+    align-items: center;
+    order: 2;
+    font-size:  150%;
+    width: 100%;
+    padding-left: 95%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}.section-header{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 h2{
     padding: 0px 20px 0px 0px;
 }
-.foto-perfil{
-    width: 150px;
-    height: 180px;
-    padding: 20px 0px 0px 20px;
+img{
+    width: 200px;
+    height: 250px;
+    display: flex;
+    align-items: flex-start;
+    padding-left: 1%;
+    padding-top: 2%;
+    padding-right: 1%;
 }
 
 .acerca-section{
     background-color: grey;
     padding: 3%;
     display: flex;
+    flex-direction: row;
 
 }
 .otros-section{
     background-color: black;
     color: aliceblue;
     padding: 30px 10px 0px 30px;
+    width: 50%;
 }
 .otros-h2{
     color: aliceblue;
 }
 
 .experiencia-section{
-    padding: 0px 20px 0px 0px
+    padding: 0px 20px 0px 0px;
+    width: 50%;
+    
+}
+.informacion-section{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    
 }
